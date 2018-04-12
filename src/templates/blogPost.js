@@ -7,11 +7,9 @@ const Template = ({ data }) => {
   return (
     <div>
       <Helmet title={`Brandon Paree - ${post.frontmatter.title}`} />
-      <div>
+      <div className="content">
         <h1>{post.frontmatter.title}</h1>
-        <div
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </div>
   )
