@@ -50,10 +50,16 @@ class Header extends Component {
             </Link>
           </div>
           <div className="navbar-end">
-            <ExternalLink href='https://github.com/brandonparee' className='navbar-item'>
+            <ExternalLink
+              href="https://github.com/brandonparee"
+              className="navbar-item"
+            >
               Github
             </ExternalLink>
-            <ExternalLink href='https://www.linkedin.com/in/brandonparee' className='navbar-item'>
+            <ExternalLink
+              href="https://www.linkedin.com/in/brandonparee"
+              className="navbar-item"
+            >
               LinkedIn
             </ExternalLink>
           </div>
