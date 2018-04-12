@@ -4,13 +4,20 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "bloomer": "^0.6.3",
+    "bulma": "^0.6.2",
     "gatsby": "^1.9.241",
+    "gatsby-image": "^1.0.45",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-catch-links": "^1.0.19",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "gatsby-plugin-sass": "^1.0.25",
+    "gatsby-plugin-sharp": "^1.6.42",
+    "gatsby-remark-images": "^1.5.61",
+    "gatsby-remark-prismjs": "^1.2.24",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.39",
+    "gatsby-transformer-sharp": "^1.6.22",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
