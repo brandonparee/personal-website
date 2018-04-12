@@ -33,7 +33,7 @@ const Portfolio = ({ data }) => {
                     <p className="title is-4">{post.frontmatter.title}</p>
 
                     <div className="content">
-                      <p>{post.excerpt}</p>
+                      <p>{post.frontmatter.description}</p>
                       <br />
                       <time>{post.frontmatter.date}</time>
                     </div>
@@ -61,6 +61,7 @@ export const pageQuery = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
             path
+            description
             image {
               alt
               src {
