@@ -5,5 +5,5 @@ title: "Blockstack React Redux Starter"
 type: "portfolio"
 ---
 
-# Blockstack React Redux Starter
+## Blockstack React Redux Starter
 

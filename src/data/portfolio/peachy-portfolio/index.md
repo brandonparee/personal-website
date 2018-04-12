@@ -8,7 +8,6 @@ image:
     src: './peachy-portfolio.png'
 ---
 
-# Peachy Portfolio
+## Peachy Portfolio
 
-![alt text](./peachy-portfolio.png "Logo Title Text 1")
 
