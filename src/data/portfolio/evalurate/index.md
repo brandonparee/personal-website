@@ -13,9 +13,9 @@ image:
 
 Evalurate is an easy way for teams to perform peer evaluations. Evalurate was my Capstone Project completed at Northern Arizona University with my team -- [Dylan Grayson](https://www.linkedin.com/in/dylangrayson), [Conner Swann](https://www.linkedin.com/in/connerswann), and [Brian Saganey](https://www.linkedin.com/in/brian-saganey-8115b6110). Additional information including design documents can be found [here](https://www.cefns.nau.edu/capstone/projects/CS/2016/Hackjacks/).
 
-## Tech Stack
+Role: Full Stack Developer + Designer
 
-Evalurate was built using:
+## Tech Stack
 
 * Meteor
 * BlazeJS
