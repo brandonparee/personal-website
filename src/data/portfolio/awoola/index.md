@@ -13,6 +13,8 @@ image:
 
 Awoola was a photo sharing application targetted towards artists. Completed as freelance work. 
 
+Role: Full Stack Developer
+
 ## Tech Stack
 
 * Meteor
