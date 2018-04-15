@@ -6,4 +6,13 @@ type: "portfolio"
 description: "Evalurate is an easy way for teams to perform peer evaluations. Capstone Project at Northern Arizona University"
 ---
 
-## Evalurate
+### Tech Stack
+
+Evalurate was built using:
+
+* Meteor
+* BlazeJS
+* MongoDB
+* Bootstrap, with additional styles written in Sass 
+* DigitalOcean, for application hosting
+* mLab, for MongoDB hosting

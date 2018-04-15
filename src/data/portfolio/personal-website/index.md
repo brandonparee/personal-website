@@ -6,4 +6,11 @@ type: "portfolio"
 description: "My personal website was created using GatsbyJS, a way to generate static websites using React and GraphQL."
 ---
 
-## Personal Website
+My personal website was creating using GatsbyJS, which is a way to generate static websites using React and GraphQL.
+
+### Tech Stack
+
+* GatsbyJS
+* React
+* GraphQL
+* Bulma, with additional styles written in Sass
