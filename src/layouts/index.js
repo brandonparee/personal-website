@@ -10,11 +10,11 @@ import './index.scss'
 const TemplateWrapper = ({ children }) => (
   <div className="react-content">
     <Helmet
-      title="Gatsby Default Starter"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
+      title="Brandon Paree"
+      // meta={[
+      //   { name: 'description', content: 'Sample' },
+      //   { name: 'keywords', content: 'sample, something' },
+      // ]}
     />
     <Header />
 
