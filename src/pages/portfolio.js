@@ -5,7 +5,6 @@ import Img from 'gatsby-image'
 
 const Portfolio = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark
-  console.log(data)
 
   return (
     <div className="columns is-multiline is-mobile">
