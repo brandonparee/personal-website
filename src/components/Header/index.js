@@ -42,10 +42,25 @@ class Header extends Component {
 
         <div className={`navbar-menu ${this.state.menuState}`}>
           <div className="navbar-start">
-            <Link className="navbar-item" to="/portfolio">
+            <Link
+              activeClassName="is-active"
+              className="navbar-item"
+              to="/portfolio"
+            >
               Portfolio
             </Link>
-            <Link className="navbar-item" to="/blog">
+            <Link
+              activeClassName="is-active"
+              className="navbar-item"
+              to="/resume"
+            >
+              Resume
+            </Link>
+            <Link
+              activeClassName="is-active"
+              className="navbar-item"
+              to="/blog"
+            >
               Blog
             </Link>
           </div>
