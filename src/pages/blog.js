@@ -2,25 +2,36 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import Content from '../components/Content'
+
 const Blog = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark
 
   return (
-    <div>
-      {posts
-        .filter(post => post.node.frontmatter.title.length > 0)
-        .map(({ node: post }) => {
-          return (
-            <div key={post.id}>
-              <h1>
-                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-              </h1>
-              <h2>{post.frontmatter.date}</h2>
-              <p>{post.excerpt}</p>
-            </div>
-          )
-        })}
-    </div>
+    <Content>
+      <div className="columns is-multiline is-mobile">
+        {posts
+          .filter(post => post.node.frontmatter.title.length > 0)
+          .map(({ node: post }) => {
+            return (
+              <div className="column is-half" key={post.id}>
+                <Link to={post.frontmatter.path}>
+                  <div className="card">
+                    <div className="card-content">
+                      <p className="title is-4">{post.frontmatter.title}</p>
+                      <div className="content">
+                        <p>{post.excerpt}</p>
+                        <br />
+                        <time>{post.frontmatter.date}</time>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            )
+          })}
+      </div>
+    </Content>
   )
 }
 
@@ -32,7 +43,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 100)
           id
           frontmatter {
             title
