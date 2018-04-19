@@ -18,6 +18,17 @@
 .custom-hero {
   .hero-body {
     padding: 0;
+
+    .gatsby-image-outer-wrapper {
+      opacity: 0.6;
+      position: absolute !important;
+      height: 100%;
+      width: 100%;
+
+      .gatsby-image-wrapper {
+        height: 100%;
+      }
+    }
   }
 
   .container {
