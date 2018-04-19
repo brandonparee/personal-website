@@ -1,12 +1,6 @@
 @import '~prismjs/themes/prism-tomorrow.css';
 @import '~bulma/sass/utilities/initial-variables';
 
-
-// $dark-grey: #1e1f1c;
-
-// $body-background-color: $dark-grey;
-// $background: $dark-grey;
-
 .react-content {
   display: flex;
   min-height: 100vh;
@@ -19,6 +13,36 @@
 
 .card {
   height: 100%;
+}
+
+.custom-hero {
+  .hero-body {
+    padding: 0;
+  }
+
+  .container {
+    max-width: 100%;
+    width: 100% !important;
+  }
+
+  .box {
+    background-color: #292929;
+    border-radius: 0;
+  }
+}
+
+.markdown {
+  ul {
+    li {
+      > p {
+        margin-bottom: 0.25em !important;
+      }
+
+      ul {
+        margin-top: 0.25em;
+      }
+    }
+  }
 }
 
 @import '~bulma';
