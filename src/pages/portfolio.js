@@ -10,12 +10,12 @@ const Portfolio = ({ data }) => {
 
   return (
     <Content>
-      <div className="columns is-multiline is-mobile">
+      <div className="columns is-multiline">
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {
             return (
-              <div className="column is-half" key={post.id}>
+              <div className="column is-half is-mobile" key={post.id}>
                 <Link to={post.frontmatter.path}>
                   <div className="card">
                     <div className="card-image">
