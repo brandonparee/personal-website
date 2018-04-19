@@ -109,7 +109,7 @@ Evalurate is a web application designed to make peer evaluations easy. Evalurate
 
 **Major Technologies Used:** Meteor, BlazeJS, Sass, MongoDB
 
-> *Additional projects and information can be found at [brandonparee.com/portfolio](http://brandonparee.com/portfolio)*
+> *Additional projects and information can be found at [brandonparee.com/portfolio](https://brandonparee.com/portfolio)*
 
 ## Awards
 -----
