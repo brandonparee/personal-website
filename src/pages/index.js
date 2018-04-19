@@ -6,7 +6,7 @@ const IndexPage = ({ data }) => {
   return (
     <section className="hero custom-hero is-dark is-fullheight">
       <div className="hero-body">
-        <Img sizes={data.file.childImageSharp.sizes} />
+        <Img sizes={data.backgroundImage.sizes} />
         <div className="container">
           <div className="columns">
             <div className="column is-mobile is-one-third box has-text-right">
@@ -24,20 +24,18 @@ export default IndexPage
 
 export const imageQuery = graphql`
 query ImageQuery {
-  file(relativePath: { regex: "/background.jpg/" }) {
-    childImageSharp {
-      sizes(quality: 100, maxWidth: 1200) {
-        base64
-        tracedSVG
-        aspectRatio
-        src
-        srcSet
-        srcWebp
-        srcSetWebp
-        sizes
-        originalImg
-        originalName
-      }
+  backgroundImage: imageSharp(id: {regex: "/background.jpg/"}) {
+    sizes(maxWidth: 2400, quality: 100) {
+      base64
+      tracedSVG
+      aspectRatio
+      src
+      srcSet
+      srcWebp
+      srcSetWebp
+      sizes
+      originalImg
+      originalName
     }
   }
 }
