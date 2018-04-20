@@ -22,7 +22,12 @@ class Header extends Component {
     return (
       <nav className="navbar is-dark">
         <div className="navbar-brand">
-          <Link className="navbar-item" activeClassName='is-active' to="/" exact>
+          <Link
+            className="navbar-item"
+            activeClassName="is-active"
+            to="/"
+            exact
+          >
             Home
           </Link>
           <div

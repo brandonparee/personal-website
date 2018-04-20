@@ -23,20 +23,19 @@ const IndexPage = ({ data }) => {
 export default IndexPage
 
 export const imageQuery = graphql`
-query ImageQuery {
-  backgroundImage: imageSharp(id: {regex: "/background.jpg/"}) {
-    sizes(maxWidth: 2400, quality: 100) {
-      base64
-      tracedSVG
-      aspectRatio
-      src
-      srcSet
-      srcWebp
-      srcSetWebp
-      sizes
-      originalImg
-      originalName
+  query ImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/background.jpg/" }) {
+      sizes(maxWidth: 2400, quality: 100) {
+        base64
+        aspectRatio
+        src
+        srcSet
+        srcWebp
+        srcSetWebp
+        sizes
+        originalImg
+        originalName
+      }
     }
   }
-}
-`;
+`

@@ -122,6 +122,6 @@ Evalurate is a web application designed to make peer evaluations easy. Evalurate
 
 ### Hack Arizona: Raytheon Drone Challenge, Spring 2015
 
-####Third Place
+#### Third Place
 
 Given an ARDrone 2.0, the challenge was to do something that involved autonomously controlling a quadcopter. My team of three programmed the ARDrone to autonomously search for faces and follow them at a distance, beginning the search again if the face was lost. Developed using NodeJS and OpenCV for face detection.

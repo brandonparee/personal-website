@@ -9,7 +9,7 @@ const Portfolio = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark
 
   return (
-    <Content>
+    <Content title="Portfolio">
       <div className="columns is-multiline">
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
@@ -22,7 +22,9 @@ const Portfolio = ({ data }) => {
                       {post.frontmatter.image ? (
                         <Img
                           alt={post.frontmatter.image.alt}
-                          sizes={post.frontmatter.image.src.childImageSharp.sizes}
+                          sizes={
+                            post.frontmatter.image.src.childImageSharp.sizes
+                          }
                         />
                       ) : (
                         <img
