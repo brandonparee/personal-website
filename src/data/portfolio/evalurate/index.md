@@ -27,25 +27,33 @@ Role: Full Stack Developer + Designer
 ## Media
 
 ![Admins can create projects and assign evaluations](./project-view.png)
+
 *Admins can create projects and assign evaluations in any 'unit'. A unit can be any 'organization' (e.g. CEFNS) or child below it (e.g. CS 477).*
 
 ![Admins can view all members in a unit and add more](./member-view.png)
+
 *Admins can view all members in a unit and add more.*
 
 ![Admins can view information about any member in their organization in the profile view.](./profile-view.png)
+
 *Admins can view information about any member in their organization in the profile view.*
 
 ![Admins recieve notifications when evaluations are completed.](./notification.png)
+
 *Admins recieve notifications when evaluations are completed.*
 
 ![Regular users can view which projects they are in and what evaluations they must complete.](./project-member-view.png)
+
 *Regular users can view which projects they are in and what evaluations they must complete.*
 
 ![Regular users complete evaluations created by admins.](./evaluation-view.png)
+
 *Regular users complete evaluations created by admins.*
 
 ![Users can be included in multiple organizations, during sign in, they choose which one to view.](./choose-organization.png)
+
 *Users can be included in multiple organizations, during sign in, they choose which one to view.*
 
 ![Sign in Page](./sign-in.png)
+
 *Sign in Page*

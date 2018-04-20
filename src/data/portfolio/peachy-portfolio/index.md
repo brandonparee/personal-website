@@ -27,21 +27,26 @@ Peachy Portfolio is a cryptocurrency portfolio tracking web application built wi
 ## Media
 
 ![Portfolio Overview](./overview.png)
+
 *Portfolio Overview*
 
-
 ![Adding a Transaction](./add-transaction.png)
+
 *Adding a Transaction*
 
 ![Overview for single cryptocurrency in portfolio](./single-view.png)
+
 *Overview for single cryptocurrency in portfolio*
 
 ![Market Data](./market-data.png)
+
 *Market Data*
 
 ![Market data for](./market-data-single.png)
+
 *Market data for a single cryptocurrency*
 
 
 ![Sign In Page](./sign-in.png)
+
 *Sign In Page*

@@ -24,7 +24,9 @@ Role: Front End Developer (jQuery/Sass)
 ## Media
 
 ![Home Page](./homepage.png)
-Home Page
+
+*Home Page*
 
 ![Model Overview Page](./model-overview.png)
-Model Overview Page
+
+*Model Overview Page*

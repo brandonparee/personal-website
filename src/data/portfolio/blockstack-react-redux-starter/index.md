@@ -24,10 +24,13 @@ A starter kit for building applications with Blockstack using React and Redux. T
 ## Media
 
 ![You can choose to place file into storage encrypted or unencrypted.](./decryption.png)
+
 *You can choose to place file into storage encrypted or unencrypted.*
 
 ![An example of the text file retrieved, but not decrypted.](./without-decryption.png)
+
 *An example of the text file retrieved, but not decrypted.*
 
 ![Home Page](./homepage.png)
+
 *Home Page*

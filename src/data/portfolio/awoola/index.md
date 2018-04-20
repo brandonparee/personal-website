@@ -28,4 +28,5 @@ Role: Full Stack Developer
 ## Media
 
 ![Home Page](./awoola.png)
-Home Page
+
+*Home Page*
