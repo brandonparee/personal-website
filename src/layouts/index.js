@@ -11,10 +11,6 @@ const TemplateWrapper = ({ children }) => (
   <div className="react-content">
     <Helmet
       title="Brandon Paree"
-      // meta={[
-      //   { name: 'description', content: 'Sample' },
-      //   { name: 'keywords', content: 'sample, something' },
-      // ]}
     />
     <Header />
 
