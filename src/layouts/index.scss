@@ -3,7 +3,7 @@
 
 $dark-blue-grey: #202127;
 $body-background-color: $dark-blue-grey;
-$column-gap: 1.5em;
+$column-gap: 1.5rem;
 
 @import '~bulma';
 
@@ -21,7 +21,7 @@ $column-gap: 1.5em;
     text-transform: uppercase;
     letter-spacing: 4px;
     position: relative;
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
     
     &::before {
       content: "";
@@ -36,7 +36,7 @@ $column-gap: 1.5em;
 
     .title-box {
       background: $white;
-      padding: 0.25em 1.25em;
+      padding: 0.25rem 1.25rem;
       position: relative;
       z-index: 5;
     }
@@ -45,7 +45,7 @@ $column-gap: 1.5em;
 
 .card {
   height: 100%;
-  border-radius: 0.25em;
+  border-radius: 0.25rem;
 }
 
 .custom-hero {
@@ -82,7 +82,7 @@ $column-gap: 1.5em;
 
 .content {
   &.markdown {
-    padding: 1em;
+    padding: 1rem;
     background-color: #fff;
 
     .gatsby-resp-image-link {
@@ -92,21 +92,25 @@ $column-gap: 1.5em;
     h1 {
       text-transform: uppercase;
       font-weight: 200;
-      letter-spacing: 0.25em;
+      letter-spacing: 0.25rem;
       border-left: 5px solid $dark;
-      padding-left: 1em;
-      margin-bottom: 1em;
-      font-size: 2.5em;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+      
+      @include mobile {
+        font-size: 2rem;
+      }
     }
 
     ul {
       li {
         > p {
-          margin-bottom: 0.25em !important;
+          margin-bottom: 0.25rem !important;
         }
   
         ul {
-          margin-top: 0.25em;
+          margin-top: 0.25rem;
         }
       }
     }
