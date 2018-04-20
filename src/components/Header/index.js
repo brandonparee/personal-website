@@ -43,6 +43,7 @@ class Header extends Component {
         <div className={`navbar-menu ${this.state.menuState}`}>
           <div className="navbar-start">
             <Link
+              onClick={this.handleMenuClick}
               activeClassName="is-active"
               className="navbar-item"
               to="/portfolio"
@@ -50,6 +51,7 @@ class Header extends Component {
               Portfolio
             </Link>
             <Link
+              onClick={this.handleMenuClick}
               activeClassName="is-active"
               className="navbar-item"
               to="/resume"
@@ -57,6 +59,7 @@ class Header extends Component {
               Resume
             </Link>
             <Link
+              onClick={this.handleMenuClick}
               activeClassName="is-active"
               className="navbar-item"
               to="/blog"
