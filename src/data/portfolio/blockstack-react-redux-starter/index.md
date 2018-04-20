@@ -27,7 +27,7 @@ A starter kit for building applications with Blockstack using React and Redux. T
 
 *You can choose to place file into storage encrypted or unencrypted.*
 
-![An example of the text file retrieved, but not decrypted.](./without-decryption.png)
+![An example of the text file retrieved, but not decrypted.](./without-decrypting.png)
 
 *An example of the text file retrieved, but not decrypted.*
 
