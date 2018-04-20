@@ -8,7 +8,7 @@ const Blog = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark
 
   return (
-    <Content>
+    <Content title='Blog'>
       <div className="columns is-multiline">
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)

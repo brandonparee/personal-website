@@ -5,6 +5,6 @@ title: "First Blog Post!"
 type: "blog"
 ---
 
-# First Post
+## First Post
 
 I made my first post on my Gatsby-driven site! Real content will be coming soon. :) 
