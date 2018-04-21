@@ -15,6 +15,10 @@ LinkedIn: [linkedin.com/in/brandonparee](https://linkedin.com/in/brandonparee)
 
 Github: [github.com/brandonparee](https://github.com/brandonparee)
 
+Website: [brandonparee.com](https://brandonparee.com)
+
+Location: Chandler, Arizona
+
 ## Experience
 -----
 
@@ -22,9 +26,7 @@ Github: [github.com/brandonparee](https://github.com/brandonparee)
 
 **Software Developer: Frontend/UI Developer**
 
-*June 2016 - Present*
-
-Chandler, Arizona
+*June 2016 - Present* — Chandler, Arizona
 
 **Achievements**
 
@@ -43,7 +45,7 @@ Chandler, Arizona
 * Write and maintain coding standards and style guides
 * Create tools to help developers save time
 * Improve Gulp and Maven build processes for frontend code
-* Perform regular code reviews for Javascript and Sass changes in mutliple codebases
+* Perform regular code reviews for Javascript and Sass changes in multiple codebases
 * Assist with sprint planning, refining requirements and stories
 
 
@@ -53,9 +55,7 @@ Chandler, Arizona
 
 **Full Stack Developer**
 
-*October 2015 - July 2016*
-
-Remote
+*October 2015 - July 2016* — Remote
 
 * Added new functionality to an existing Meteor application for a cryptocurrency startup
 * Major features implemented:
@@ -63,37 +63,23 @@ Remote
     * KYC and AML verifications for new customers
     * Stripe and Versapay as payment methods for cryptocurrency and cloud mining
     * Two factor authentication
-* Performed security audit on inherited code and fixed vulnerabilities
-* Designed MongoDB schemas
-* Maintained Kanban board for ongoing development
-* Managed deployments of application using Meteor Galaxy
 
 #### Awoola
 
 **Full Stack Developer**
 
-*September 2015 - January 2016*
-
-Remote
+*September 2015 - January 2016* — Remote
 
 * Created photo sharing application given design and functional requirements
 * Major features implemented:
     * Image upload and hosting using Cloudinary
     * Administration tools for front page and gallery page content
     * Dynamic categories for images and artwork
-* Designed MongoDB schemas
-* Provided rapid implementation of features missing from initial requirements
-* Managed deployment of application using DigitalOcean
 
 ## Languages, Skills, Tools, Technologies
 -----
 
 Javascript (ES2015+), Node.js, CSS/Sass, React, Redux, GraphQL, Docker, MongoDB, Webpack, Gulp, Meteor, Express, Python, Django, DigitalOcean
-
-## Interests
------
-
-Blockchain Technologies, Cryptography, Data Analysis, UI Design, UX Design and Testing, Bioinformatics
 
 ## Projects
 -----
