@@ -5,19 +5,22 @@ title: "Resume"
 type: "resume"
 ---
 
+[Download a Copy](./Resume.pdf)
+
 **Brandon Paree** 
 
 *Full Stack Developer*
 
-Education: Bachelor of Science | Computer Science at Northern Arizona 2016
+
+Email: me@brandonparee.com | Phone Number: 520-205-2826 | Location: Chandler, Arizona
+
+Education: Bachelor of Science in Computer Science (BSCS) at Northern Arizona 2016
 
 LinkedIn: [linkedin.com/in/brandonparee](https://linkedin.com/in/brandonparee)
 
 Github: [github.com/brandonparee](https://github.com/brandonparee)
 
 Website: [brandonparee.com](https://brandonparee.com)
-
-Location: Chandler, Arizona
 
 ## Experience
 -----
@@ -31,7 +34,7 @@ Location: Chandler, Arizona
 **Achievements**
 
 * Assisted in launch of new [Opel](http://opel.ie) and [Vauxhall](https://vauxhall.co.uk) marketing websites
-* Wrote Javascript and Sass to assist in implementation of new Adobe Experience Manager components
+* Wrote Javascript and Sass to assist in implementation of new Adobe Experience Manager components for Opel/Vauxhall sites
 * Created tool to allow developers to use local code with production content, allowing bugfixes to be accomplished much faster
 * Created tool to assist developers in writing documentation
 * Assisted in creation of tool to bundle documentation into a distributable PDF
@@ -80,6 +83,11 @@ Location: Chandler, Arizona
 -----
 
 Javascript (ES2015+), Node.js, CSS/Sass, React, Redux, GraphQL, Docker, MongoDB, Webpack, Gulp, Meteor, Express, Python, Django, DigitalOcean
+
+## Interests	
+------
+
+UX Design and Testing, UI Design, Workflow Optimization, Cryptography, Blockchain Technologies, Information Security
 
 ## Projects
 -----
