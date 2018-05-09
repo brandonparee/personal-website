@@ -5,9 +5,9 @@ title: "Resume"
 type: "resume"
 ---
 
-[Download a Copy](./Resume.pdf)
+[Download a Copy](./resume.pdf)
 
-**Brandon Paree** 
+**Brandon Paree**
 
 *Full Stack Developer*
 
@@ -84,7 +84,7 @@ Website: [brandonparee.com](https://brandonparee.com)
 
 Javascript (ES2015+), Node.js, CSS/Sass, React, Redux, GraphQL, Docker, MongoDB, Webpack, Gulp, Meteor, Express, Python, Django, DigitalOcean
 
-## Interests	
+## Interests
 ------
 
 UX Design and Testing, UI Design, Workflow Optimization, Cryptography, Blockchain Technologies, Information Security
@@ -99,7 +99,7 @@ Peachy Portfolio is a cryptocurrency portfolio tracking web application built wi
 **Major Technologies Used**: Blockstack, React, Redux, Sass, Docker
 ### Evalurate
 
-Evalurate is a web application designed to make peer evaluations easy. Evalurate was my Capstone Project completed at Northern Arizona University with my team consisting of a total of four people. 
+Evalurate is a web application designed to make peer evaluations easy. Evalurate was my Capstone Project completed at Northern Arizona University with my team consisting of a total of four people.
 
 **Major Technologies Used:** Meteor, BlazeJS, Sass, MongoDB
 
