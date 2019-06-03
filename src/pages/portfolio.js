@@ -1,6 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 
 import Content from '../components/Content'
@@ -30,6 +30,7 @@ const Portfolio = ({ data }) => {
                         <img
                           style={{ width: '100%' }}
                           src="http://via.placeholder.com/1200x900"
+                          alt="placeholder"
                         />
                       )}
                     </div>

@@ -26,7 +26,6 @@ class Header extends Component {
             className="navbar-item"
             activeClassName="is-active"
             to="/"
-            exact
           >
             Home
           </Link>
@@ -58,14 +57,14 @@ class Header extends Component {
             >
               Resume
             </Link>
-            <Link
+            {/* <Link
               onClick={this.handleMenuClick}
               activeClassName="is-active"
               className="navbar-item"
               to="/blog"
             >
               Blog
-            </Link>
+            </Link> */}
           </div>
           <div className="navbar-end">
             <ExternalLink
