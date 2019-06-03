@@ -4,6 +4,7 @@
 $dark-blue-grey: #202127;
 $body-background-color: $dark-blue-grey;
 $column-gap: 1.5rem;
+$footer-background-color: #252733;
 
 @import '~bulma';
 
@@ -21,7 +22,7 @@ $column-gap: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 4px;
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     
     &::before {
       content: "";
@@ -82,7 +83,7 @@ $column-gap: 1.5rem;
 
 .content {
   &.markdown {
-    padding: 1rem;
+    padding: 2.5rem;
     background-color: #fff;
 
     .gatsby-resp-image-link {
@@ -95,7 +96,7 @@ $column-gap: 1.5rem;
       letter-spacing: 0.25rem;
       border-left: 5px solid $dark;
       padding-left: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       font-size: 2.5rem;
       
       @include mobile {
@@ -114,7 +115,18 @@ $column-gap: 1.5rem;
         }
       }
     }
+
+    hr {
+      background-color: #ccc;
+      height: 1px;
+
+    }
   }
+}
+
+.footer {
+  padding: 4rem 1.5rem;
+  margin-top: 2rem;
 }
 
 html {

@@ -71,7 +71,7 @@ class Header extends Component {
               href="https://github.com/brandonparee"
               className="navbar-item"
             >
-              Github
+              GitHub
             </ExternalLink>
             <ExternalLink
               href="https://www.linkedin.com/in/brandonparee"
