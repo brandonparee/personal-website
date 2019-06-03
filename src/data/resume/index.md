@@ -1,6 +1,6 @@
 ---
 path: "/resume"
-date: "2018-04-10T09:00:00.000Z"
+date: "2019-6-02T09:00:00.000Z"
 title: "Resume"
 type: "resume"
 ---
