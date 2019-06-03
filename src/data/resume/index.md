@@ -5,31 +5,39 @@ title: "Resume"
 type: "resume"
 ---
 
-[Download a Copy](./resume.pdf)
+[Download a copy](./resume.pdf)
 
 **Brandon Paree**
 
 *Full Stack Developer*
 
 
-Email: me@brandonparee.com | Phone Number: 520-205-2826 | Location: Chandler, Arizona
+Email: me@brandonparee.com | Phone Number: 520-205-2826 | Location: Scottsdale, Arizona
 
 Education: Bachelor of Science in Computer Science (BSCS) at Northern Arizona 2016
 
 LinkedIn: [linkedin.com/in/brandonparee](https://linkedin.com/in/brandonparee)
 
-Github: [github.com/brandonparee](https://github.com/brandonparee)
+GitHub: [github.com/brandonparee](https://github.com/brandonparee)
 
 Website: [brandonparee.com](https://brandonparee.com)
 
 ## Experience
 -----
 
+### Modulus Global
+
+**Software Developer/Frontend Developer**
+
+*August 2018 - Present* - Scottsdale, Arizona
+
+* Create React application for white label exchange software
+
 ### General Motors
 
 **Software Developer: Frontend/UI Developer**
 
-*June 2016 - Present* — Chandler, Arizona
+*June 2016 - July 2018* — Chandler, Arizona
 
 **Achievements**
 
