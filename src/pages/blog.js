@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
+import moment from 'moment'
 
 import Content from '../components/Content'
 
@@ -22,7 +23,7 @@ const Blog = ({ data }) => {
                       <div className="content">
                         <p>{post.excerpt}</p>
                         <br />
-                        <time>{post.frontmatter.date}</time>
+                        <time>{moment(post.frontmatter.date).format('MMMM DD, YYYY')}</time>
                       </div>
                     </div>
                   </div>
@@ -47,7 +48,7 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date
             path
           }
         }

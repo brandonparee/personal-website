@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
+import moment from 'moment'
 
 import Content from '../components/Content'
 
@@ -40,7 +41,7 @@ const Portfolio = ({ data }) => {
                       <div className="content">
                         <p>{post.frontmatter.description}</p>
                         <br />
-                        <time>{post.frontmatter.date}</time>
+                        <time>{moment(post.frontmatter.date).format('MMMM YYYY')}</time>
                       </div>
                     </div>
                   </div>
@@ -65,7 +66,7 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MMMM YYYY")
+            date
             path
             description
             image {
